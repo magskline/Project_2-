@@ -1,0 +1,210 @@
+body {
+	margin: auto;
+
+}
+.backgroundpic {
+	width: 100vw;
+	height: 150vh;
+	background-image: url("../images/backgroundhome.jpg");
+	background-size: cover;
+	z-index: -10;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.homebar {
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 40px;
+	height: 40px;
+	width: 100vw;
+	z-index: 40;
+}
+.homebar a{
+	transform-origin: 50% 50%;
+	transition: transform .2s ease-out;
+	float: right;
+	color: white;
+	text-align: center;
+	font-family: Open Sans Condensed;
+	text-decoration: none;
+	padding: 10px 50px;
+}
+.homebar a:hover{
+	/*font-size: 20px;*/
+	transform: scale(1.5);
+	font-weight: 900;
+}
+.homebar-about{
+	background-color: rgba(195, 36, 36, 0.6);
+	position: absolute;
+	top: 40px;
+	height: 40px;
+	width: 100vw;
+	z-index: 40;
+}
+.homebar-about a{
+	transform-origin: 50% 50%;
+	transition: transform .2s ease-out;
+	float: right;
+	color: white;
+	text-align: center;
+	font-family: Open Sans Condensed;
+	text-decoration: none;
+	padding: 10px 50px;
+}
+.homebar-about a:hover{
+	/*font-size: 20px;*/
+	transform: scale(1.5);
+	font-weight: 900;
+}
+
+.rob {
+	position: absolute;
+	font-family: Bowlby One SC;
+	z-index: 10;
+	font-size: 110px;
+	top: -50px;
+	left: 40px;
+	color: white;
+}
+.lowe {
+	position: absolute;
+	font-family: Bowlby One SC;
+	z-index: 10;
+	font-size: 110px;
+	top: 150px;
+	left: 40px;
+	color: white;
+}
+.supermundane {
+	position: absolute;
+	z-index: 21;
+	bottom: 50px;
+	left: 20px;
+}
+.goobers {
+	position: fixed;
+	z-index: 20;
+	top: 45px;
+	left: 650px;
+}
+.goobers img{
+		width: 700px;
+}
+.phrase {
+	position: absolute;
+	font-family: Open Sans Condensed;
+	z-index: 20;
+	top: 660px;
+	color: white;
+	left: 340px;
+}
+.email {
+	position: absolute;
+	z-index: 20;
+	top: 268px;
+	left: 525px;
+}
+.instagram {
+	position: absolute;
+	z-index: 20;
+	top: 220px;
+	left: 526px;
+}
+.phrase2{
+	position: absolute;
+	font-family: Open Sans Condensed;
+	z-index: 20;
+	top: 765px;
+	color: white;
+	left: 340px;
+}
+.phrase2 a{
+	transform-origin: 50% 50%;
+	transition: transform .2s ease-out;
+	color: #C4E21D;
+	text-align: center;
+	font-family: Open Sans Condensed;
+	text-decoration: none;
+	padding: 4px 2px;
+	font-weight: 900;
+}
+.phrase2 a:before{
+	content: "";
+	position: absolute;
+	width: 0px;
+	height: 2px;
+	bottom: 15px;
+	left: 0px;
+	background-color: #C4E21D;
+	visibility: hidden;
+	transition: all .3s ease-in-out;
+}
+.phrase2 a:hover:before{
+	visibility: visible;
+	width: 10%;
+	left: 265px;
+}
+
+.SlideShow {
+	z-index: 40;
+	position: absolute;
+	top:105%;
+	left: 23.5%;
+}
+
+#slider {
+  position: relative;
+  width: 300px;
+  height: 300px;
+ 
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+	}
+	#slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
+	}
+	#slider ul li {
+  position: relative;
+  height: 100%;
+ 
+  float: left;
+	}
+	#slider ul li img{
+  width: 300px;
+  height: 300px;
+	}
+ 
+	#slider #prev, #slider #next {
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+	}
+	#slider #prev:hover, #slider #next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0;
+	}
+	#slider #prev {
+  left: 10px;
+	}
+	#slider #next {
+  right: 10px;
+	}

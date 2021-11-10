@@ -1,0 +1,172 @@
+body {
+  margin: auto;
+}
+image {
+  margin: auto;
+} 
+.homebar-gallery{
+  background-color: rgba(196, 226, 29, 0.7);
+  position: absolute;
+  top: 40px;
+  height: 40px;
+  width: 100vw;
+  z-index: 40;
+}
+.homebar-gallery a{
+  transform-origin: 50% 50%;
+  transition: transform .2s ease-out;
+  float: right;
+  color: white;
+  text-align: center;
+  font-family: Open Sans Condensed;
+  text-decoration: none;
+  padding: 10px 50px;
+}
+.homebar-gallery a:hover{
+  /*font-size: 20px;*/
+  transform: scale(1.5);
+  font-weight: 900;
+}
+.gallerybackground{
+  width: 100vw;
+  height: 250vh;
+  background-image: url("../images/gallerybackground.png");
+  background-size: cover;
+  z-index: -10;
+}
+.title {
+  position: absolute;
+  font-family: Bowlby One SC;
+  z-index: 10;
+  font-size: 110px;
+  top: -50px;
+  left: 40px;
+  color: whitesmoke;
+}
+.blib {
+  position: absolute;
+  font-family: Open Sans Condensed;
+  top: 250px;
+  right: 100px;
+  color: white;
+  font-size: 20px;
+}
+.gallery1{
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  margin: none;
+  height: 377px;
+  box-shadow: 10px 10px 5px black;
+}
+.gallery2{
+  position: absolute;
+  top: 400px;
+  left: 450px;
+  margin: auto;
+  box-shadow: 10px 10px 5px black;
+}
+.gallery3{
+  position: absolute;
+  top: 400px;
+  left: 800px;
+  margin: auto;
+  box-shadow: 10px 10px 5px black;
+}
+.gallery4{
+  position: absolute;
+  top: 825px;
+  left: 100px;
+  margin: auto;
+  box-shadow: 10px 10px 5px black;
+}
+.gallery5{
+  position: absolute;
+  top: 825px;
+  left: 450px;
+  margin: auto;
+  box-shadow: 10px 10px 5px black;
+}
+.gallery6{
+  position: absolute;
+  top: 825px;
+  left: 800px;
+  margin: auto;
+  box-shadow: 10px 10px 5px black;
+}
+.gallery7{
+  position: absolute;
+  top: 825px;
+  left: 1100px;
+  margin: auto;
+  box-shadow: 10px 10px 5px black;
+}
+.gallery8{
+  position: absolute;
+  top: 1200px;
+  left: 100px;
+  margin: auto;
+  box-shadow: 10px 10px 5px black;
+}
+.gallery9{
+  position: absolute;
+  top: 1200px;
+  left: 450px;
+  margin: auto;
+  box-shadow: 10px 10px 5px black;
+}
+.gallery10{
+  position: absolute;
+  top: 1200px;
+  left: 800px;
+  margin: auto;
+  box-shadow: 10px 10px 5px black;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container:hover .image {
+  opacity: 0.8;
+}
+.container:hover .middle {
+  opacity: 1;
+}
+.text {
+  background-color: rgba(196, 226, 29, 1);
+  color: white;
+  font-size: 17px;
+  font-family: Open Sans Condensed;
+  padding: 16px 32px;
+}
+
+.email {
+  position: absolute;
+  z-index: 20;
+  top: 304px;
+  right: 275px;
+}
+.instagram {
+  position: absolute;
+  z-index: 20;
+  top: 300px;
+  right: 325px;
+}
+
